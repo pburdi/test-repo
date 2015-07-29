@@ -1,0 +1,26 @@
+
+PMB@ROC-PC ~/dropbox/data (master)
+$ cd gitl
+
+PMB@ROC-PC ~/dropbox/data/gitl (master)
+$ git clone https://github.com/pburdi/test-repo.git
+
+PMB@ROC-PC ~/dropbox/data/gitl/test-repo (master)
+$ mkdir at
+
+PMB@ROC-PC ~/dropbox/data/gitl/test-repo (master)
+$ ls
+README.md  at
+
+PMB@ROC-PC ~/dropbox/data/gitl/test-repo (master)
+$ git add -A
+
+PMB@ROC-PC ~/dropbox/data/gitl/test-repo (master)
+$ git commit -m "all aboard"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working directory clean
+
+PMB@ROC-PC ~/dropbox/data/gitl/test-repo (master)
+$ git push
